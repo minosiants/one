@@ -1,4 +1,8 @@
-# sv
+## Things to do
+
+- [] Define Primary , Neutral , Accent colors. 7 shades of each.
+
+### nice font to use https://www.brailleinstitute.org/freefont
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 

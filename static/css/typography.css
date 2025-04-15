@@ -1,0 +1,86 @@
+* {
+	max-inline-size: var(--measure);
+}
+:root {
+	font-size: calc(1rem + 0.5vw);
+}
+
+html,
+body,
+div,
+ul,
+li,
+header,
+nav,
+main,
+footer,
+pre {
+	max-inline-size: none;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+	line-height: 1.1;
+	font-family: var(--accentFont);
+	color: var(--darker);
+	text-wrap: balance;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: clamp(2rem, calc(2rem + 1vw), 2.5rem);
+	background-color: var(--accent);
+	border: 2px solid var(--accent);
+	border-radius: 5px;
+}
+
+h2 {
+	font-size: clamp(1.8rem, calc(1.8rem + 1vw), 2rem);
+}
+
+h3 {
+	font-size: clamp(1.6rem, calc(1.6rem + 1vw), 1.8rem);
+}
+
+h4 {
+	font-size: clamp(1.5rem, calc(1.5rem + 1vw), 1.8rem);
+}
+
+h5 {
+	font-size: clamp(1.35rem, calc(1.35rem + 1vw), 1.5rem);
+}
+
+h6 {
+	font-size: clamp(1.1rem, calc(1.1rem + 1vw), 1.25rem);
+}
+
+a {
+	color: var(--darker);
+	text-decoration-thickness: 0.2rem;
+	text-decoration-color: var(--accent);
+	transition:
+		transform 0.3s ease,
+		background 0.3s ease;
+	will-change: transform;
+}
+a:hover {
+	background: var(--accent);
+	transform: scale(1.05);
+}
+
+code {
+	font-size: var(--font-small);
+	line-height: 1 !important;
+}
+
+pre {
+	overflow-y: auto;
+	color: var(--paper);
+	background: var(--darker);
+	padding: 1rem;
+	line-height: 1 !important;
+}
