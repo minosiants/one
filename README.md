@@ -1,42 +1,22 @@
-## Things to do
+# One
 
-- [] Define Primary , Neutral , Accent colors. 7 shades of each.
+This is a template for a [Svelte](https://svelte.dev/) based personal website and blog.
 
-### nice font to use https://www.brailleinstitute.org/freefont
+## How to use
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+To use this template this repo should be cloned and costomized.
 
-## Creating a project
+- Landing page [+page](./src/routes/+page.svelte).
+- Blog posts should be written in the markdown and placed [lib/posts](./src/lib/posts/).
+- Personal progects description should go here [lib/projects](./src/lib/projects/).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Deployment
 
-```bash
-# create a new project in the current directory
-npx sv create
+[netify](https://netlify.app/) can be used for the site hosting.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Used resources
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [Svelte](https://svelte.dev/) - UI framework.
+- [sveltekit-blog-starter](https://github.com/josh-collinsworth/sveltekit-blog-starter) was used as a starting point.
+- [The Atkinson Hyperlegible Next Font](https://www.brailleinstitute.org/freefont/) - an excelent open source font.
+- [Puimefaces](https://www.svgrepo.com/author/primefaces/) - icons.

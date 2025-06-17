@@ -1,12 +1,12 @@
 <script>
 	import Projects from '$lib/components/Projects.svelte';
-	import { siteDescription } from '$lib/config';
+	import { siteDescription, siteAuthor } from '$lib/config';
 
 	let { data } = $props();
 </script>
 
 <svelte:head>
-	<title>Personal Projects</title>
+	<title>{siteAuthor} - Personal Projects</title>
 	<meta data-key="description" name="description" content={siteDescription} />
 </svelte:head>
 

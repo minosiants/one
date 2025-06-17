@@ -1,13 +1,13 @@
 <script>
 	import Posts from '$lib/components/Posts.svelte';
 	import Pagination from '$lib/components/Pagination.svelte';
-	import { siteDescription } from '$lib/config';
+	import { siteDescription, siteAuthor } from '$lib/config';
 
 	let { data } = $props();
 </script>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>{siteAuthor} - Blog</title>
 	<meta data-key="description" name="description" content={siteDescription} />
 </svelte:head>
 
