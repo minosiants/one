@@ -17,3 +17,9 @@
 	<Posts posts={data.posts} />
 	<Pagination currentPage={1} totalPosts={data.total} />
 </main>
+
+<style>
+	main {
+		--border-radius: var(--border-radius-large);
+	}
+</style>

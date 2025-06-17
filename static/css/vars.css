@@ -33,4 +33,7 @@
 	--font-medium: clamp(1.5rem, calc(1.5rem + 1vw), 2rem);
 	--font-pre-small: clamp(0.8rem, calc(0.8rem + 1vw), 1rem);
 	--font-small: clamp(0.5rem, calc(0.5rem + 1vw), 0.6rem);
+
+	--border-radius-large: 30px;
+	--border-radius-small: 10px;
 }

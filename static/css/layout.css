@@ -90,5 +90,5 @@ ul {
 
 .border {
 	border: 3px solid var(--border-color, --accent);
-	border-radius: 3px;
+	border-radius: var(--border-radius, 3px);
 }

@@ -15,3 +15,9 @@
 	<div class="box"></div>
 	<Projects projects={data.projects} />
 </main>
+
+<style>
+	main {
+		--border-radius: var(--border-radius-large);
+	}
+</style>

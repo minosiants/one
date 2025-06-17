@@ -14,7 +14,7 @@
 					I’m passionate about crafting
 					<a target="_blank" href="https://github.com/minosiants">software</a>, making
 					<a target="_blank" href="https://www.instagram.com/artos450/">art</a>, and keeping a
-					<a target="_blank" href="/blog">blog</a>.
+					<a href="/blog" data-sveltekit-reload>blog</a>.
 				</h3>
 				<p>
 					Have extensive experience in hands-on design and development of professional software
@@ -28,7 +28,7 @@
 				<p>
 					I love
 					<a target="_blank" href="https://en.wikipedia.org/wiki/Functional_programming">FP</a>.
-					Created some open source <a href="/projects">projects</a>
+					Created some open source <a href="/projects" data-sveltekit-reload>projects</a>
 				</p>
 				<p class="bold">
 					Live in
