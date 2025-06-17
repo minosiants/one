@@ -2,7 +2,7 @@
 	import Date from '$lib/components/Date.svelte';
 	let { data } = $props();
 	console.log('data', data);
-	const { title, excerpt, date, updated } = data.meta;
+	const { title, excerpt, date } = data.meta;
 	const { PageContent } = data;
 </script>
 
@@ -33,6 +33,6 @@
 		background-color: var(--paper);
 		--border-color: var(--dark-lighter);
 		border: 2 px solid var(--dark-lighter);
-		border-radius: 5px;
+		--border-radius: var(--border-radius-large);
 	}
 </style>

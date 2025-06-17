@@ -35,7 +35,7 @@ h1 {
 	font-size: clamp(2rem, calc(2rem + 1vw), 2.5rem);
 	background-color: var(--accent);
 	border: 2px solid var(--accent);
-	border-radius: 5px;
+	border-radius: var(--border-radius-small);
 }
 
 h2 {
