@@ -16,7 +16,10 @@ const config = {
 		})
 	],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			entries: ['*', '/api/posts/page/*', '/blog/page/', '/blog/page/*']
+		}
 	},
 	extensions: ['.svelte', '.md']
 };
