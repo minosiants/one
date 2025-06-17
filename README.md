@@ -4,10 +4,10 @@ This is a template for a [Svelte](https://svelte.dev/) based personal website an
 
 ## How to use
 
-To use this template this repo should be cloned and costomized.
+To use this template this repo should be forked and costomized.
 
 - Landing page [+page](./src/routes/+page.svelte).
-- Blog posts should be written in the markdown and placed [lib/posts](./src/lib/posts/).
+- Blog posts should be written in markdown and placed here [lib/posts](./src/lib/posts/).
 - Personal progects description should go here [lib/projects](./src/lib/projects/).
 
 ## Deployment
