@@ -1,6 +1,12 @@
 <script>
 	import VLine from '$lib/components/VLine.svelte';
+	import { siteDescription, siteAuthor } from '$lib/config';
 </script>
+
+<svelte:head>
+	<title>{siteAuthor}</title>
+	<meta data-key="description" name="description" content={siteDescription} />
+</svelte:head>
 
 <main class="box content">
 	<ul class="with-sidebar1 center">
