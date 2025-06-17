@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="/css/utils.css" />
 	<link rel="stylesheet" href="/css/form.css" />
 	<link rel="stylesheet" href="/css/typography.css" />
-	<link rel="stylesheet" href="/css/code.css" />
 	<link rel="stylesheet" href="/css/prism.css" />
 </svelte:head>
 
