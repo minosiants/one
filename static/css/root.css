@@ -10,3 +10,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+@media print {
+	body {
+		background-color: var(--paper);
+	}
+}

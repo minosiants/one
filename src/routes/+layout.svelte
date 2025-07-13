@@ -4,6 +4,7 @@
 	import { page } from '$app/state';
 
 	const isRoot = page.url.pathname === '/';
+	const isCv = page.url.pathname === '/cv';
 </script>
 
 <svelte:head>
@@ -18,7 +19,7 @@
 	<link rel="stylesheet" href="/css/prism.css" />
 </svelte:head>
 
-{#if isRoot}
+{#if isRoot || isCv}
 	<main class="layout">
 		<slot />
 	</main>

@@ -48,6 +48,7 @@
 				<div>
 					<p class="links">
 						<a target="_blank" href="email:k@minosiant.com">k@minosiants.com</a>
+						<a href="/cv" data-sveltekit-reload>CV</a>
 						<a target="_blank" href="https://www.linkedin.com/in/kaspar/">LinkedIn</a>
 					</p>
 				</div>

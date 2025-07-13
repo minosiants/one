@@ -1,0 +1,301 @@
+first_name = "Kaspar"
+last_name = "Minosyants"
+title = "Software Engineer"
+mobile = "0374431737"
+email = "job@minosiants.com"
+location = "Australia QLD Gold Coast"
+status = "Australian Citizen"
+about = "22+ Years In The Field"
+skills = """
+Java, Spring, Spring Boot, JPA, Hibernate,\
+Scala, Akka, sbt, Cats, Cats Effect, FS2, scodec, Circe, http4s, ZIO,\
+Kotlin, Rust,\
+JavaScript, HTML, CSS, Svelte,\
+Microservices, RESTful, Swagger,\
+Spark, Hive, Hadoop, NLP,\
+Kafka, RabbitMQ, ActiveMQ, IBM MQ,\
+Tomcat, Jetty, WebLogic, WebSphere,\
+SQL, Neo4j, MongoDB, Aerospike, PostgreSQL, DB2, Oracle, MySQL, HSQLDB, MS SQL,\
+Solr, Elasticsearch,\
+Jenkins, Docker, Kubernetes, Testcontainers, AWS,\
+Agile, XP, Scrum,\
+Maven, Gradle, sbt, pnpm, Cargo
+"""
+
+[[certification]]
+provider = "Coursera"
+year = 2023
+subject = "Machine Learning"
+
+[[education]]
+provider = "State University of Aerospace Instrumentation"
+subject = "Automated Systems and Computer Devices"
+location = "Russia, Saint Petersburg"
+year = 2002
+
+[[education]]
+provider = "State University of Technology"
+subject = "Organic Chemistry"
+location = "Russia, Saint Petersburg"
+year = 1998
+
+[links]
+homepage = "https://minosiants.com"
+blog = "https://minosiants.com/blog"
+projects = "https://minosiants.com/projects"
+linkedin = "https://linkedin.com/in/kaspar"
+github = "https://github.com/minosiants"
+instagram ="https://instagram.com/artos450"
+
+[languages]
+expert = ["java", "scala"]
+proficient = ["javascript", "typescript", "kotlin"]
+prior_experience = ["rust", "python"]
+
+[[companies]]
+company = "NYSE"
+url = "http://www.nyse.com/"
+
+[[companies]]
+company = "TFA"
+url = "http://www.tfanet.org/"
+
+[[companies]]
+company = "Alfabank"
+url = "http://alfabank.ru/"
+
+[[companies]]
+company = "Deutsche Bank"
+url = "https://www.db.com/"
+
+[[experience]]
+company = "FNZ"
+url = "https://www.fnz.com/"
+position = "Senior Java Developer"
+type = "Contract"
+from = "2024-04"
+till = "2024-11"
+location = "Australia"
+[[experience.projects]]
+title = "FNZ Syn"
+about = "Set of tools that help banks and financial institutions manage their trading and financial operations more efficiently."
+work = [
+  "Developed and maintained Java-based components of the system using Java 17 and GWT.",
+  "Integrated static data into the financial services platform, improving data consistency and system reliability across core applications.",
+  "Resolved long-standing software bugs, enhancing system stability and maintainability.",
+  "Completed development of complex business logic features, such as Corporate Actions for institutional investors, ensuring robust and accurate functionality.",
+  "Conducted regular code reviews and provided mentorship to team members to uphold high code quality standards and foster knowledge sharing."
+]
+
+[[experience]]
+company = "Tabcorp"
+url = "https://www.tab.com.au/"
+position = "Senior Scala/Java Developer"
+type = "Contract"
+from = "2022-10"
+till = "2023-10"
+location = "Australia"
+[[experience.projects]]
+title = "Bets Analysis"
+about = "Kafka Streams-based microservices platform for handling bet analysis."
+work = [
+  "Developed and maintained microservices using Kafka Streams, Spark, and AWS.",
+  "Refactored key microservices, significantly reducing memory usage."
+]
+
+[[experience]]
+company = "Mobile TeleSystems"
+url = "http://www.mts.ru/"
+position = "Senior Scala/Java Developer"
+type = "Full Time"
+from = "2020-02"
+till = "2022-09"
+location = "Russia"
+[[experience.projects]]
+title = "3G/4G Analysis"
+about = "Product that processes, enhances, and stores mobile 3G/4G network events for further usage."
+work = [
+  "Developed microservices to process events of various mobile protocols using Scala, Spark, Kafka, and Aerospike.",
+  "Introduced Testcontainers for writing integration tests.",
+  "Simplified work with Aerospike using Scala macros.",
+  "Developed microservices with REST API using Spring Boot to access 3G/4G statistical data."
+]
+
+[[experience]]
+company = "Telstra"
+url = "https://www.telstra.com.au/"
+position = "Senior Scala Developer"
+type = "Contract"
+from = "2016-04"
+till = "2018-04"
+location = "Australia"
+[[experience.projects]]
+title = "BigData"
+about = "Platform enabling easy creation of chatbots through a drag-and-drop interface."
+work = [
+  "Developed a Scala library to help data scientists write modular and standardized Spark jobs.",
+  "Wrote Spark jobs to support data processing needs.",
+  "Developed an AI platform for chatbot creation using NLP, integrating connectors with third-party REST APIs, including Facebook, Google Voice Assistant, and IBM Watson.",
+  "Implemented a REST endpoint connector used by another Telstra department to create their help assistant, incorporating OAuth2, JWT, and Swagger.",
+  "Received a director award for outstanding commitment to work."
+]
+
+[[experience]]
+company = "Sensis"
+url = "http://sensis.com.au/"
+position = "Senior Java Developer"
+type = "Contract"
+from = "2015-01"
+till = "2016-04"
+location = "Australia"
+[[experience.projects]]
+title = "Marshall"
+about = "Yellow Pages Content Management solution enabling the sales team to store customer data and the publisher team to publish data to www.yellowpages.com.au."
+work = [
+  "Developed REST API to store data in Neo4j using Spring Boot.",
+  "Developed Neo4j OData integration for Salesforce."
+]
+
+[[experience]]
+company = "CGU"
+url = "http://cgu.com.au/"
+position = "Senior Java Developer"
+type = "Contract"
+from = "2013-11"
+till = "2014-12"
+location = "Australia"
+[[experience.projects]]
+title = "CUDOS"
+about = "CGU Underwriting and Distribution Operating System, providing simplified insurance-based processes using a web-based UI and Java server-side API."
+work = [
+  "Developed Java and JavaScript application components.",
+  "Introduced a new approach for local builds that significantly reduced build time.",
+  "Participated in a company hackathon and created a solution adopted for production."
+]
+
+[[experience]]
+company = "Sensis"
+url = "http://developers.sensis.com.au"
+position = "Senior Scala Developer"
+type = "Contract"
+from = "2013-04"
+till = "2013-07"
+location = "Australia"
+[[experience.projects]]
+title = "SAPI"
+about = "Sensis public REST API for third-party usage."
+work = [
+  "Migrated existing Java-based REST SAPI to Scala.",
+  "Created new Scala-based REST endpoints for SAPI."
+]
+
+[[experience]]
+company = "Open Universities Australia"
+url = "http://www.open.edu.au/"
+position = "Senior Java Developer"
+type = "Full Time"
+from = "2011-10"
+till = "2013-02"
+location = "Australia"
+[[experience.projects]]
+title = "OUA"
+about = "Online education provider platform."
+work = [
+  "Designed and developed solutions based on business requirements using Java and JavaScript.",
+  "Migrated the company’s CMS from IBM Web Content Manager to Alterian.",
+  "Introduced AOP solutions to separate cross-cutting concerns.",
+  "Designed and developed a web application cache layer using Riak."
+]
+
+[[experience]]
+company = "Gemini-Systems"
+url = "http://www.gemini-systems.com" 
+position = "Senior Java Developer"
+type = "Full Time"
+from = "2006-07"
+till = "2011-05"
+location = "Russia / USA"
+[[experience.projects]]
+title = "NYSE"
+about = "New York Stock Exchange internal trading application."
+work = [
+  "Developed functionality using IBM WebSphere, Java, JavaScript, and Hibernate."
+]
+[[experience.projects]]
+title = "TFA"
+about = "Teach for America Enterprise Service Bus."
+work = [
+  "Developed Enterprise Service Bus components using IBM WebSphere."
+]
+[[experience.projects]]
+title = "Alfabank"
+about = "Russian bank build automation."
+work = [
+  "Designed and developed build automation based on Ant and Ivy used across projects."
+]
+
+[[experience]]
+company = "T-Systems"
+url = "https://www.t-systems.com/"
+position = "Senior Java Developer"
+type = "Full Time"
+from = "2006-04"
+till = "2006-07"
+location = "Russia"
+[[experience.projects]]
+title = "T-Systems"
+about = "Leading European IT service provider and part of Deutsche Telekom."
+work = [
+  "Refactored existing UI web interfaces using JavaScript and AJAX technology.",
+  "Designed and developed a console Java utility for checking data consistency across multiple database tables."
+]
+
+[[experience]]
+company = "Luxoft"
+url = "https://www.luxoft.com/"
+position = "Senior Java Developer"
+type = "Full Time"
+from = "2005-01"
+till = "2005-11"
+location = "Russia"
+[[experience.projects]]
+title = "Deutsche Bank"
+about = "Loan Security Estimate solution."
+work = [
+  "Acquired domain knowledge in derivatives and trading platform architecture in a short time.",
+  "Implemented new customer requirements across all system tiers.",
+  "Refactored legacy architecture with Spring, Struts, and Hibernate technologies.",
+  "Designed and developed a web application cache layer using Riak.",
+  "Replaced Stateless/Stateful EJB components with Spring-based POJO.",
+  "Converted plain Java Servlets to use Struts."
+]
+
+[[experience]]
+company = "VTSystems"
+url = "http://www.vtsystems.com"
+position = "Java Developer"
+type = "Full Time"
+from = "2004-03"
+till = "2004-12"
+location = "Russia"
+[[experience.projects]]
+title = "Backoffice"
+about = "Web-based backoffice application for company management."
+work = [
+  "Developed a multilayer J2EE application for the backoffice using Java, Hibernate, and Oracle DB."
+]
+
+[[experience]]
+company = "АКЕ"
+url = "" 
+position = "C Developer"
+type = "Full Time"
+from = "2003-02"
+till = "2004-03"
+location = "Russia"
+[[experience.projects]]
+title = "Flight Bag"
+about = "Linux-based flight assistant for pilots."
+work = [
+  "Wrote test cases in C for full coverage of the Linux kernel system’s API."
+]

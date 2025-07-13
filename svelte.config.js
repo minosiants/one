@@ -21,7 +21,7 @@ const config = {
 			entries: ['*', '/api/posts/page/*', '/blog/page/', '/blog/page/*']
 		}
 	},
-	extensions: ['.svelte', '.md']
+	extensions: ['.svelte', '.md', '.toml']
 };
 
 export default config;
