@@ -32,30 +32,30 @@ body {
 }
 
 h1 {
-	font-size: clamp(2rem, calc(2rem + 1vw), 2.5rem);
+	font-size: var(--font-size-h1);
 	background-color: var(--accent);
 	border: 2px solid var(--accent);
 	border-radius: var(--border-radius-small);
 }
 
 h2 {
-	font-size: clamp(1.8rem, calc(1.8rem + 1vw), 2rem);
+	font-size: var(--font-size-h2);
 }
 
 h3 {
-	font-size: clamp(1.6rem, calc(1.6rem + 1vw), 1.8rem);
+	font-size: var(--font-size-h3);
 }
 
 h4 {
-	font-size: clamp(1.5rem, calc(1.5rem + 1vw), 1.8rem);
+	font-size: var(--font-size-h4);
 }
 
 h5 {
-	font-size: clamp(1.35rem, calc(1.35rem + 1vw), 1.5rem);
+	font-size: var(--font-size-h5);
 }
 
 h6 {
-	font-size: clamp(1.1rem, calc(1.1rem + 1vw), 1.25rem);
+	font-size: var(--font-size-h6);
 }
 
 a {
