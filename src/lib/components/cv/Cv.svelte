@@ -86,6 +86,7 @@
 		</div>
 	</div>
 	<div>
+		<h4>Experience</h4>
 		<ul class="stack">
 			{#each cv.experience as exp}
 				<li class="dont-break">
